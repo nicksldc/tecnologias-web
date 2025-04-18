@@ -20,6 +20,6 @@ Aplicação web para cadastro e gerenciamento de itens com validação e armazen
 1. Clone o repositório
 2. Abra o arquivo `index.html` em um navegador web
 
-## Desenvolvedores
+## Aluno
 - Nícolas Lopes do Carmo
 - 2512130102
