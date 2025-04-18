@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Itens</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <header class="main-header">
+        <h1>Cadastro de Itens</h1>
+    </header>
+
+    <nav class="navbar">
+        <div class="nav-buttons">
+            <button class="nav-btn active" data-section="form">Cadastrar Item</button>
+            <button class="nav-btn" data-section="list">Ver Itens</button>
+        </div>
+    </nav>
+
+    <section id="form" class="section active">
+        <form id="itemForm" class="form">
+            <div class="form-group">
+                <label for="name">Nome:</label>
+                <input type="text" id="name" required>
+                <span class="error-message"></span>
+            </div>
+            <div class="form-group">
+                <label for="description">Descrição:</label>
+                <textarea id="description" required></textarea>
+                <span class="error-message"></span>
+            </div>
+            <button type="submit" class="btn">Salvar</button>
+        </form>
+    </section>
+
+    <section id="list" class="section">
+        <div id="itemList" class="item-list"></div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
